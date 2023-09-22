@@ -6,19 +6,12 @@
 class StateContext;
 class InputHandler;
 
-struct PlayerData
-{
-    bool isSprinting = false;
-};
-
 
 class Player
 {
 private:
     bool hasInput = false;
     int noInputTimer = 0;
-
-    PlayerData* pData;
     
     InputHandler* inputHandler;
     StateContext* stateCtx;

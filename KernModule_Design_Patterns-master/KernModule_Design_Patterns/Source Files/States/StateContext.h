@@ -14,8 +14,6 @@ public:
     State* idleState;
     State* moveState;
     State* jumpState;
-
-    PlayerData* pData;
     
     bool isSprinting = false;
     
